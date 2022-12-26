@@ -1,0 +1,10 @@
+<language>
+    <area alias="dashboardTabs">
+        <key alias="superHeroDashboard">Superhero Dashboard</key>
+    </area>
+    <area alias="superHerDashboard">
+        <key alias="heading">The Superhero Dashboard</key>
+        <key alias="bodytext">CSV importer</key>
+        <key alias="copyright">© WildSite Creations 2022</key>
+    </area>
+</language>

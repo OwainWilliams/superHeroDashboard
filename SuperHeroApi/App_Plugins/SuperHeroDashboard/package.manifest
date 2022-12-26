@@ -1,7 +1,7 @@
 {
     "dashboards":  [
         {
-            "alias": "welcomeDashboard",
+            "alias": "superHeroDashboard",
             "view":  "/App_Plugins/SuperHeroDashboard/dashboard.html",
             "sections":  [ "content" ],
             "weight": -10,
