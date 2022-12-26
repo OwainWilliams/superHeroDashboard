@@ -1,0 +1,14 @@
+{
+    "dashboards":  [
+        {
+            "alias": "welcomeDashboard",
+            "view":  "/App_Plugins/SuperHeroDashboard/dashboard.html",
+            "sections":  [ "content" ],
+            "weight": -10,
+            "access": [
+                { "deny": "translator" },
+                { "grant": "admin" }
+            ]
+        }
+    ]
+}
