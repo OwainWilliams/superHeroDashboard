@@ -1,1 +1,15 @@
-<uui-button look="primary" color="default" label="Button" state="" href="" target="">Upload</uui-button>
+<div class="welcome-dashboard" ng-controller="SuperHeroDashboardController as vm">
+
+  
+<uui-form>
+  <form @submit="submit" id="MyForm">
+    <uui-form-layout-item>
+      <uui-label slot="label" required="">File</uui-label>
+      <uui-input-file name="input-file" required></uui-input-file>
+    </uui-form-layout-item>
+    <uui-button type="submit" look="primary" label="Submit" ng-click="update()"></uui-button>
+  </form>
+<uui-form>
+
+  
+</div>
